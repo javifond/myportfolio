@@ -1,0 +1,158 @@
+/*FJBC CV CSS*/
+
+body {
+	background: url(../images/fjbc_bg.png);
+	color: white;
+	font-family: 'PT Mono', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%
+}
+h1.head_title span{
+	font-size: 45px;
+	font-variant: small-caps;
+	width: auto;
+	display: inline;
+}
+a#head_pdf{
+	float: right;
+	font-size: 14px;
+}
+.label {
+	color: #2E9AFE;
+	display: inline-block;
+}
+
+h2{
+	color: #58FA82;
+	cursor: pointer;
+}
+/*PERSONAL INFO*/
+div#personal_info{
+
+	margin-left: 10px;
+}
+
+div#personal_info span.label{
+	width:40%;
+	border-right: 1px solid white;
+	padding-bottom: 10px;
+}
+/*DESIRE JOB*/
+div#desire_job{
+
+	margin-left: 10px;
+}
+div#desire_job span.label{
+	width:40%;
+	border-right: 1px solid white;
+}
+/*EDUCATION AND TRAINING*/
+div#education{
+
+	margin-left: 10px;
+	width: 100%;
+}
+div#education span.label{
+	width:40%;
+	border-right: 1px solid white;
+	padding-bottom: 10px;
+}
+div#edu1 div{
+	display: none;
+}
+/*PERSONAL SKILLS*/
+div#skills{
+	margin-left: 10px;
+	width: 100%;
+}
+div#skills span.label{
+	width:40%;
+	border-right: 1px solid white;
+	padding-bottom: 10px;
+	vertical-align: top;
+}
+div#skills span.label + span{
+	width:50%;
+	display: inline-block;
+}
+div#skills span.label.extend_a{
+	height: 265px;
+
+}
+div#skills span.label.extend_b{
+	height: 170px;
+
+}
+div#skills span.label.extend_c{
+	height: 202px;
+
+}
+div#skills span.label.extend_d{
+	height: 90px;
+
+}
+div#skills span.label.extend_e{
+	height: 370px;
+
+}
+div#skills div{
+	display: none;
+}
+/*WORK EXPERIENCE*/
+div#work_experience{
+	margin-left: 10px;
+	width: 100%;
+}
+div#work_experience span.label{
+	width:40%;
+	border-right: 1px solid white;
+	padding-bottom: 10px;
+	vertical-align: top;
+}
+div#work_experience span.label + span{
+	width:50%;
+	display: inline-block;
+}
+div#work_2{
+	margin-top: 20px;
+}
+div#work_experience span.label.activitiesA{
+	height: 290px;
+
+}
+div#work_experience span.label.activitiesB{
+	height: 195px;
+
+}
+div#work_1 div{
+	display: none;
+}
+div#work_2 div{
+	display: none;
+}
+/*PROJECTS*/
+
+div#projects{
+	margin-left: 10px;
+	margin-bottom: 40px;
+	width: 100%;
+}
+a {
+	color:white;
+}
+div#projects div{
+	display: none;
+}
+
+/*FOOTER*/
+a#mymail {
+	color: #C77425;
+	float: right;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+a#footer_pdf {
+	display: none;
+	margin-bottom: 20px;
+}
